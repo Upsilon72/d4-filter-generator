@@ -26,13 +26,6 @@ A browser-based tool for generating Diablo IV loot filter import codes. No accou
 3. Click **Import**
 4. Paste the generated code → Confirm
 
-## How to deploy to GitHub Pages
-
-1. Fork this repo (or create a new one named `d4-filter-generator`)
-2. Push `index.html` and `README.md` to the `main` branch
-3. Go to repo **Settings → Pages → Source → Deploy from branch → main / root**
-4. Your tool will be live at `https://upsilon72.github.io/d4-filter-generator`
-
 ## Contributing
 
 The biggest outstanding task is confirming skill rank IDs for non-Warlock classes. Each class needs ~15 minutes of in-game work (build a filter with one skill per rule, export, decode).
